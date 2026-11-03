@@ -1,0 +1,17 @@
+PyPack – Proprietary Software Notice
+
+Copyright (c) 2026 PyPack
+All rights reserved.
+
+PyPack and its associated program files are proprietary software.
+
+No permission is granted to use, copy, modify, merge, publish, distribute,
+sublicense, or sell copies of the software or its source code, except where
+such permission is required by applicable law or separately granted in
+writing by the rights holder.
+
+This notice applies to PyPack itself. It does not replace or modify the
+licenses of third-party components that may be included in or used by the
+software. Those components remain subject to their respective license terms.
+
+The software is provided without warranty to the extent permitted by law.

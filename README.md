@@ -31,14 +31,6 @@ Dieses Repository ist die offizielle Quelle für PyPack-Downloads.
 
 Die Datei [latest.json](latest.json) enthält die aktuelle Versionsnummer, den Download-Link und die Versionshinweise. Für eine manuelle Aktualisierung kannst du den Installer von dieser Seite erneut herunterladen und ausführen.
 
-**Hinweis zum automatischen Updater:** Die Bereitstellung von `latest.json` allein implementiert noch keine Updateprüfung in der installierten Anwendung. Dafür muss PyPack selbst diese Datei abrufen, die Versionsnummer vergleichen und gegebenenfalls den Installer herunterladen.
-
-## Hinweise
-
-- PyPack erstellt verlustfreie Archive; Dateien sollen nach dem Entpacken bytegenau wiederhergestellt werden.
-- Das Archivformat ist derzeit noch nicht als langfristig stabiles Format spezifiziert.
-- Bewahre wichtige Originaldateien zusätzlich auf und prüfe Archive nach dem Erstellen.
-
 ## Lizenz und Nutzung
 
 PyPack ist proprietäre, nicht frei lizenzierte Software. Es wird keine Lizenz zur Weiterverwendung, Änderung oder Weiterverbreitung des Programms oder seines Codes erteilt. Alle Rechte bleiben vorbehalten.
@@ -54,8 +46,6 @@ Wenn du einen Fehler melden oder eine Frage stellen möchtest, kannst du dafür 
 # PyPack (English)
 
 **PyPack** is a lossless, adaptive archiving application for Windows. It creates archives from individual files and entire folders, and can restore and verify their contents.
-
-> **Closed Source:** PyPack's source code is not publicly available. This repository is used exclusively to provide official downloads and update information.
 
 ## Download
 
@@ -85,14 +75,6 @@ The actual compression ratio depends on the input data. Already compressed forma
 This repository is the official source for PyPack downloads.
 
 The [latest.json](latest.json) file contains the current version number, download link, and release notes. To update manually, download the installer from this page again and run it.
-
-**Automatic updater note:** Providing `latest.json` alone does not implement update checking in the installed application. PyPack itself must retrieve this file, compare the version number, and download the installer when an update is available.
-
-## Notes
-
-- PyPack creates lossless archives; files are intended to be restored byte-for-byte after extraction.
-- The archive format is not yet specified as a long-term stable format.
-- Keep separate copies of important original files and verify archives after creating them.
 
 ## License and Usage
 

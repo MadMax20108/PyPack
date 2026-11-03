@@ -1,5 +1,7 @@
 # PyPack
-(https://github.com/MadMax20108/PyPack#pypack-english)
+
+[**English version**](https://github.com/MadMax20108/PyPack#pypack-english)
+
 **PyPack** ist ein verlustfreies, adaptives Archivierungsprogramm für Windows. Es erstellt Archive aus einzelnen Dateien und ganzen Ordnern und kann deren Inhalt wiederherstellen und überprüfen.
 
 ## Download

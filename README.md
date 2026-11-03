@@ -31,9 +31,9 @@ Die tatsächliche Kompressionsrate hängt von den Eingabedaten ab. Bereits kompr
 
 Dieses Repository ist die offizielle Quelle für PyPack-Downloads.
 
-Sobald eine neue Version veröffentlicht wird, wird der Download hier aktualisiert. Für eine manuelle Aktualisierung kannst du den Installer von dieser Seite erneut herunterladen und ausführen.
+Die Datei [latest.json](latest.json) enthält die aktuelle Versionsnummer, den Download-Link und die Versionshinweise. Für eine manuelle Aktualisierung kannst du den Installer von dieser Seite erneut herunterladen und ausführen.
 
-**Hinweis zum automatischen Updater:** Die Bereitstellung eines Downloads allein implementiert noch keine Updateprüfung in der installierten Anwendung. Dafür muss PyPack selbst eine Versionsabfrage durchführen. Derzeit ist in diesem Repository kein öffentlich dokumentierter Update-Endpunkt und kein Release-Verlauf hinterlegt.
+**Hinweis zum automatischen Updater:** Die Bereitstellung von `latest.json` allein implementiert noch keine Updateprüfung in der installierten Anwendung. Dafür muss PyPack selbst diese Datei abrufen, die Versionsnummer vergleichen und gegebenenfalls den Installer herunterladen.
 
 ## Hinweise
 
@@ -50,3 +50,58 @@ Details stehen in [PROPRIETARY-NOTICE.txt](PROPRIETARY-NOTICE.txt).
 ## Support und Fehlerberichte
 
 Wenn du einen Fehler melden oder eine Frage stellen möchtest, kannst du dafür die [GitHub-Issues](https://github.com/MadMax20108/PyPack/issues) verwenden. Bitte veröffentliche dort keine privaten Dateien oder vertraulichen Informationen.
+
+---
+
+# PyPack (English)
+
+**PyPack** is a lossless, adaptive archiving application for Windows. It creates archives from individual files and entire folders, and can restore and verify their contents.
+
+> **Closed Source:** PyPack's source code is not publicly available. This repository is used exclusively to provide official downloads and update information.
+
+## Download
+
+[**Download PyPack-Setup.exe**](https://github.com/MadMax20108/PyPack/raw/refs/heads/main/PyPack-Setup.exe)
+
+The download starts the Windows installer. Only install PyPack from this official repository.
+
+- **Platform:** Windows
+- **Package:** Windows installer (EXE)
+- **Installation:** Using the included installer
+
+## Features
+
+- Lossless archiving of files and folders
+- Adaptive selection of suitable compression methods
+- Custom RLE strategy for data containing long runs of repeated bytes
+- Multiple workers for parallel processing
+- SHA-256 checksums to detect corrupted archives
+- List and verify archives, and extract them fully or partially
+- Graphical user interface and command-line support
+- .pyp file association on Windows
+
+The actual compression ratio depends on the input data. Already compressed formats such as JPEG or MP4 usually cannot be reduced much further.
+
+## Updates
+
+This repository is the official source for PyPack downloads.
+
+The [latest.json](latest.json) file contains the current version number, download link, and release notes. To update manually, download the installer from this page again and run it.
+
+**Automatic updater note:** Providing `latest.json` alone does not implement update checking in the installed application. PyPack itself must retrieve this file, compare the version number, and download the installer when an update is available.
+
+## Notes
+
+- PyPack creates lossless archives; files are intended to be restored byte-for-byte after extraction.
+- The archive format is not yet specified as a long-term stable format.
+- Keep separate copies of important original files and verify archives after creating them.
+
+## License and Usage
+
+PyPack is proprietary software and is not distributed under an open-source license. No license is granted to reuse, modify, or redistribute the program or its source code. All rights are reserved.
+
+See [PROPRIETARY-NOTICE.txt](PROPRIETARY-NOTICE.txt) for details.
+
+## Support and Bug Reports
+
+If you want to report a bug or ask a question, you can use [GitHub Issues](https://github.com/MadMax20108/PyPack/issues). Please do not publish private files or confidential information there.

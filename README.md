@@ -6,8 +6,6 @@
 
 ## Download
 
-[**PyPack-Setup.exe herunterladen**](https://github.com/MadMax20108/PyPack/raw/refs/heads/main/PyPack-Setup.exe)
-
 Der Download startet den Windows-Installer. Installiere PyPack ausschließlich aus diesem offiziellen Repository.
 
 - **Plattform:** Windows
